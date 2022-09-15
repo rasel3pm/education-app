@@ -1,0 +1,34 @@
+.heroSection{
+    display: grid;
+    grid-template-columns: 1.3fr 1fr 1fr 1fr;
+    background-color: #192a56;
+    border-radius: 7px;
+}
+.item{
+
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    color: white;
+    border-left: 1px solid rgb(80, 80, 88);
+}
+
+.item1{
+    text-align: left;
+    padding: 25px;
+    color: white;
+}
+
+.item1 ul li{
+    list-style: square !important;
+}
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    .heroSection{
+        grid-template-columns:1fr;
+        gap: 20px;
+    }
+
+}

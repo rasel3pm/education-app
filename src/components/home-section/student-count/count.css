@@ -1,0 +1,61 @@
+.counter{
+    /* background-image: url("../../../asset/picture/world.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; */
+    min-height: 70vh;
+    background: #F0F4F9;
+}
+
+
+.inner_counter{
+    display: grid;
+    grid-template-columns: 8fr 4fr;
+    gap: 20px;
+    padding-top: 80px;
+}
+
+.counter-items{
+    width: 300px;
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.counter-items>.icon{
+    font-size: 40px;
+    background-color: rgb(241, 166, 68);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+    .counter{
+        min-height: 100vh;
+        background: #F0F4F9;
+    }
+    
+    
+    .inner_counter{
+        display:flex;
+        flex-direction: column-reverse;
+        gap: 10px;
+        padding-top: 30px;
+
+    }
+    
+    .counter-items{
+        width: 100%;
+        background-color: white;
+        margin-bottom: 20px;
+        padding: 7px;
+        display: flex;
+        justify-content: space-evenly;
+
+    }
+}

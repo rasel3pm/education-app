@@ -1,0 +1,64 @@
+.about_us_img img{
+    border-radius: 10px;
+    box-shadow: 2px 1px 9px -3px black;
+}
+
+.inner_about_us{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.about_us_text h1{
+    font-weight: 700;
+}
+.about_us_text .para{
+    font-weight: 500;
+    color: rgb(97, 98, 99);
+}
+
+.faCheck{
+    background-color: rgb(253 200 0);
+    padding: 12px;
+    font-size: 40px;
+    border-radius: 10px;
+}
+.Ligula_molestie{
+    display: flex;
+    gap: 20px;
+
+}
+
+
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    .about_us_img img{
+        max-width: 100%;
+    }
+    
+    .inner_about_us{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+    .about_us_text h1{
+        font-weight: 700;
+    }
+    .about_us_text .para{
+        font-weight: 500;
+        color: rgb(97, 98, 99);
+    }
+    
+    .faCheck{
+        background-color: rgb(253 200 0);
+        padding: 12px;
+        font-size: 40px;
+        border-radius: 10px;
+    }
+    .Ligula_molestie{
+        display: flex;
+        gap: 20px;
+    
+    }
+
+}

@@ -1,0 +1,26 @@
+.tab{
+    border-radius: 20px;
+    border: none;
+}
+
+
+.items{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+
+.price_ratting{
+    display: flex;
+    justify-content: space-around;
+}
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+    .items{
+        grid-template-columns: 1fr;
+    }
+
+}
